@@ -56,26 +56,6 @@ function Figure({ photo, className = '' }: { photo: Photo; className?: string })
   );
 }
 
-/** Slim switcher so both Wedding Plans concepts stay one tap away. */
-export function ConceptNav() {
-  return (
-    <nav className="wp-concepts" aria-label="Wedding concepts">
-      <div className="wrap wp-concepts-inner">
-        <a href="#wedding-plans">
-          <span className="wp-concepts-num">I</span>
-          <span className="wp-concepts-long">Between History and Eternity</span>
-          <span className="wp-concepts-short">Medieval</span>
-        </a>
-        <a href="#mediterranean">
-          <span className="wp-concepts-num">II</span>
-          <span className="wp-concepts-long">The Mediterranean in a Different Light</span>
-          <span className="wp-concepts-short">Mediterranean</span>
-        </a>
-      </div>
-    </nav>
-  );
-}
-
 export default function MediterraneanAutumn() {
   return (
     <section className="med" id="mediterranean">
@@ -85,7 +65,7 @@ export default function MediterraneanAutumn() {
             <span className="med-roman">II</span>
             <span className="eyebrow">Wedding Plans · Concept Two</span>
           </div>
-          <h2 className="med-title">The Mediterranean in a Different Light</h2>
+          <h1 className="med-title">The Mediterranean in a Different Light</h1>
           <p className="med-subtitle">An Autumn Wedding Inspired by Architecture and Natural Beauty</p>
           <span className="med-rule" aria-hidden="true" />
           <p className="med-lead">

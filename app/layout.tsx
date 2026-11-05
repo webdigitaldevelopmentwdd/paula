@@ -3,6 +3,8 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://eclesarewedding.com'),
+  alternates: { canonical: '/' },
   title: 'ECLESARE by Paula — Architecture of Emotion',
   description: 'Eclesare by Paula — contemporary destination wedding planning, architecture of emotion.',
 };
