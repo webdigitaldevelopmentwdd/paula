@@ -4,7 +4,7 @@ import { SITE_URL } from '@/lib/site';
 export type Crumb = { name: string; href?: string };
 
 /** Visible breadcrumb trail plus BreadcrumbList structured data. The last crumb is the current page. */
-export default function Breadcrumbs({ items }: { items: Crumb[] }) {
+export default function Breadcrumbs({ items, className = '' }: { items: Crumb[]; className?: string }) {
   const trail: Crumb[] = [{ name: 'Home', href: '/' }, ...items];
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -18,7 +18,7 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
   };
 
   return (
-    <nav className="crumbs" aria-label="Breadcrumb">
+    <nav className={`crumbs ${className}`.trim()} aria-label="Breadcrumb">
       <div className="wrap">
         <ol>
           {trail.map((c, i) => {
