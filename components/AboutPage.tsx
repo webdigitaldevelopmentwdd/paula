@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import Reveal from './Reveal';
 import Breadcrumbs from './Breadcrumbs';
 
@@ -8,29 +9,19 @@ const IMG = '/images/about';
  * kept in her first-person voice. Each paragraph is used once; nothing has been added.
  */
 export default function AboutPage() {
+  // The banner background is a CSS image, so ask the browser to fetch it early.
+  ReactDOM.preload(`${IMG}/banner-sunset-sea.webp`, { as: 'image', fetchPriority: 'high' });
+
   return (
     <>
-      {/* 1 · Hero banner directly under the navigation */}
+      {/* 1 · Compact hero banner directly under the navigation (background image is decorative) */}
       <section className="abt-hero" aria-labelledby="abt-title">
-        <div className="abt-hero-copy">
-          <Breadcrumbs items={[{ name: 'About' }]} className="crumbs-hero" />
-          <div className="abt-hero-text">
-            <div className="eyebrow abt-rise abt-d1">Eclesare by Paula</div>
-            <h1 id="abt-title" className="abt-rise abt-d2">About Us</h1>
-            <p className="abt-subtitle abt-rise abt-d3">The Art of Creating Unforgettable Celebrations</p>
-            <span className="abt-rule abt-rise abt-d4" aria-hidden="true" />
-            <p className="abt-tagline abt-rise abt-d5">Love, transformed into art.</p>
-          </div>
-        </div>
-        <div className="abt-hero-media">
-          <img
-            src={`${IMG}/portrait-white-studio.webp`}
-            alt="Paula, founder of Eclesare by Paula, smiling in a black blazer"
-            width={1064}
-            height={1600}
-            fetchPriority="high"
-            decoding="async"
-          />
+        <div className="abt-hero-bg" aria-hidden="true" />
+        <div className="abt-hero-overlay" aria-hidden="true" />
+        <Breadcrumbs items={[{ name: 'About' }]} className="crumbs-hero" />
+        <div className="abt-hero-text">
+          <h1 id="abt-title" className="abt-fade">About Us</h1>
+          <p className="abt-subtitle abt-up">The Art of Creating Unforgettable Celebrations.</p>
         </div>
       </section>
 
