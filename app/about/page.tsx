@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import PageShell from '@/components/PageShell';
+import HeroBanner from '@/components/HeroBanner';
 import AboutPage from '@/components/AboutPage';
 import EnquiryCta from '@/components/EnquiryCta';
 
@@ -13,6 +14,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <PageShell>
+      <HeroBanner
+        title="About Us"
+        subtitle="The Art of Creating Unforgettable Celebrations."
+        image="/images/about/banner-sunset-sea.webp"
+        crumbs={[{ name: 'About' }]}
+      />
       <AboutPage />
       <EnquiryCta label="Let’s Create Your Wedding  →" />
     </PageShell>

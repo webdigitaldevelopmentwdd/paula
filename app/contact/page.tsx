@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import PageShell from '@/components/PageShell';
-import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
 import Reveal from '@/components/Reveal';
 import ContactForm from '@/components/ContactForm';
 import { CONTACT, SERVICES, WEDDING_TYPES } from '@/lib/site';
@@ -24,13 +24,18 @@ export default async function ContactPage({ searchParams }: { searchParams: Prom
 
   return (
     <PageShell>
-      <Breadcrumbs items={[{ name: 'Contact' }]} />
+      <HeroBanner
+        title="Contact Us"
+        subtitle="Let’s Begin Creating Something Unforgettable."
+        image="/images/banners/contact.webp"
+        crumbs={[{ name: 'Contact' }]}
+      />
 
       <section className="ct-section">
         <div className="wrap ct-grid-wrap">
           <Reveal className="ct-intro">
             <div className="eyebrow">Your celebration begins here</div>
-            <h1>Let’s create something meaningful.</h1>
+            <h2>Let’s create something meaningful.</h2>
             <p>Tell us a little about your plans, the place you imagine and what matters most to you.</p>
             <span className="wp-rule ct-rule" aria-hidden="true" />
             <dl className="ct-details">

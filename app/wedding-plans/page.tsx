@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PageShell from '@/components/PageShell';
-import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
 import Reveal from '@/components/Reveal';
 import EnquiryCta from '@/components/EnquiryCta';
 import { CONCEPTS, conceptHref } from '@/lib/site';
@@ -16,13 +16,18 @@ export const metadata: Metadata = {
 export default function WeddingPlansIndex() {
   return (
     <PageShell>
-      <Breadcrumbs items={[{ name: 'Wedding Plans' }]} />
+      <HeroBanner
+        title="Wedding Plans"
+        subtitle="Discover Beautifully Curated Wedding Experiences."
+        image="/images/banners/wedding-plans.webp"
+        crumbs={[{ name: 'Wedding Plans' }]}
+      />
 
       <section className="wpi-hero">
         <div className="wrap">
           <Reveal className="wpi-hero-copy">
             <div className="eyebrow">Wedding Plans</div>
-            <h1>Wedding Concepts &amp; Stories</h1>
+            <h2>Wedding Concepts &amp; Stories</h2>
             <p className="wpi-lead">
               We create thematic weddings shaped around your story, your cultures and the traditions that matter to you.
             </p>

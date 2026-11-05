@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PageShell from '@/components/PageShell';
-import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
 import Reveal from '@/components/Reveal';
 import EnquiryCta from '@/components/EnquiryCta';
 import { PROCESS_STEPS, SERVICES, serviceHref } from '@/lib/site';
@@ -16,13 +16,18 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <PageShell>
-      <Breadcrumbs items={[{ name: 'Services' }]} />
+      <HeroBanner
+        title="Our Services"
+        subtitle="Thoughtful Planning, Exceptional Celebrations."
+        image="/images/banners/services.webp"
+        crumbs={[{ name: 'Services' }]}
+      />
 
       <section className="sv-hero">
         <div className="wrap">
           <Reveal className="sv-hero-copy">
             <div className="eyebrow">Services</div>
-            <h1>A considered approach, from idea to experience</h1>
+            <h2>A considered approach, from idea to experience</h2>
             <p className="sv-lead">A close, collaborative process built around creative direction, careful planning and calm execution.</p>
             <span className="wp-rule" aria-hidden="true" />
           </Reveal>

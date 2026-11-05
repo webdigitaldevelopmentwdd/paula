@@ -1,6 +1,4 @@
-import ReactDOM from 'react-dom';
 import Reveal from './Reveal';
-import Breadcrumbs from './Breadcrumbs';
 
 const IMG = '/images/about';
 
@@ -9,21 +7,9 @@ const IMG = '/images/about';
  * kept in her first-person voice. Each paragraph is used once; nothing has been added.
  */
 export default function AboutPage() {
-  // The banner background is a CSS image, so ask the browser to fetch it early.
-  ReactDOM.preload(`${IMG}/banner-sunset-sea.webp`, { as: 'image', fetchPriority: 'high' });
-
   return (
     <>
-      {/* 1 · Compact hero banner directly under the navigation (background image is decorative) */}
-      <section className="abt-hero" aria-labelledby="abt-title">
-        <div className="abt-hero-bg" aria-hidden="true" />
-        <div className="abt-hero-overlay" aria-hidden="true" />
-        <Breadcrumbs items={[{ name: 'About' }]} className="crumbs-hero" />
-        <div className="abt-hero-text">
-          <h1 id="abt-title" className="abt-fade">About Us</h1>
-          <p className="abt-subtitle abt-up">The Art of Creating Unforgettable Celebrations.</p>
-        </div>
-      </section>
+      {/* The hero banner is rendered by <HeroBanner /> in app/about/page.tsx */}
 
       {/* 2 · Introduction */}
       <section className="abt-intro" aria-labelledby="abt-intro-title">

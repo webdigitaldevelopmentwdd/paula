@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PageShell from '@/components/PageShell';
-import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
 import Reveal from '@/components/Reveal';
 import GalleryView from '@/components/GalleryView';
 import EnquiryCta from '@/components/EnquiryCta';
@@ -16,13 +16,18 @@ export const metadata: Metadata = {
 export default function GalleryPage() {
   return (
     <PageShell>
-      <Breadcrumbs items={[{ name: 'Gallery' }]} />
+      <HeroBanner
+        title="Our Gallery"
+        subtitle="A Collection of Moments, Memories and Beautiful Celebrations."
+        image="/images/banners/gallery.webp"
+        crumbs={[{ name: 'Gallery' }]}
+      />
 
       <section className="gl-hero">
         <div className="wrap">
           <Reveal className="gl-hero-copy">
             <div className="eyebrow">Galería · Gallery</div>
-            <h1>Spaces that tell stories</h1>
+            <h2>Spaces that tell stories</h2>
             <p className="gl-lead">
               A study of atmosphere, structure, texture and human connection. Inspiration imagery is illustrative and not
               represented as completed Eclesare work.
