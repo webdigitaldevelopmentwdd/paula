@@ -1,11 +1,14 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
   // Filled on the client, as in the original (avoids a server/client year mismatch).
   const [year, setYear] = useState('');
   useEffect(() => setYear(String(new Date().getFullYear())), []);
+  const home = usePathname() === '/wedding-plans' ? '/' : '';
 
   return (
     <footer>
@@ -18,22 +21,23 @@ export default function Footer() {
           <div>
             <div className="footer-title">Explore</div>
             <div className="footer-links">
-              <a href="#home">Home</a>
-              <a href="#filosofia">Filosofía</a>
-              <a href="#proceso">Proceso</a>
-              <a href="#galeria">Galería</a>
-              <a href="#servicios">Servicios</a>
+              <a href={`${home}#home`}>Home</a>
+              <a href={`${home}#filosofia`}>Filosofía</a>
+              <a href={`${home}#proceso`}>Proceso</a>
+              <a href={`${home}#galeria`}>Galería</a>
+              <a href={`${home}#servicios`}>Servicios</a>
+              <Link href="/wedding-plans">Wedding Plans</Link>
               <a href="#contacto">Contacto</a>
             </div>
           </div>
           <div>
             <div className="footer-title">Destinations</div>
             <div className="footer-links">
-              <a href="#destinos">India</a>
-              <a href="#destinos">France</a>
-              <a href="#destinos">Spain</a>
-              <a href="#destinos">Mountains &amp; Coast</a>
-              <a href="#destinos">Worldwide</a>
+              <a href={`${home}#destinos`}>India</a>
+              <a href={`${home}#destinos`}>France</a>
+              <a href={`${home}#destinos`}>Spain</a>
+              <a href={`${home}#destinos`}>Mountains &amp; Coast</a>
+              <a href={`${home}#destinos`}>Worldwide</a>
             </div>
           </div>
           <div>
