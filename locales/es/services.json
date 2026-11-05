@@ -50,6 +50,48 @@
   "services.planning.description": "Te acompañamos durante toda la planificación de tu boda, cuidando cada detalle para que todo encaje a la perfección. Coordinamos proveedores, horarios, espacios y necesidades particulares para que disfrutes del proceso con total tranquilidad.\n\nTambién podemos encargarnos de la coordinación el día de la boda, supervisando toda la celebración de principio a fin. Nuestro objetivo es que vivas tu día especial plenamente, sin tener que preocuparte por la organización.",
   "services.planning.alt": "Ceremonia al aire libre bajo un arco escultórico de color terracota, con invitados sentados en sillas de mimbre",
 
+  "services.main.title": "Servicios principales de boda",
+
+  "services.photography.extra": "Cada boda está llena de momentos irrepetibles que merecen conservarse para siempre. Buscamos profesionales capaces de captar vuestra historia con sensibilidad, autenticidad y mirada artística, desde los preparativos hasta los últimos instantes de la celebración, para que cada imagen transmita emoción genuina: recuerdos que te permiten revivir tu día especial una y otra vez.",
+  "services.catering.extra": "Una experiencia gastronómica cuidadosamente diseñada para deleitar e inspirar.",
+  "services.cakes.extra": "Celebramos el lado más dulce de tu boda con creaciones que combinan creatividad, sabor y estética. Cada diseño puede adaptarse a la identidad visual y al concepto general de tu boda: pequeños momentos de placer.",
+  "services.hair.extra": "Te ponemos en contacto con profesionales especializados que se adaptan a tu estilo, a tus preferencias y a tus necesidades, para que te sientas segura, radiante y fiel a ti misma.",
+  "services.attire.extra": "Buscamos opciones que se alineen con tu visión, porque cada elección contribuye a la experiencia y a la estética global de la celebración. La verdadera elegancia está en encontrar aquello que te representa.",
+  "services.decoration.extra": "Transformamos cada espacio en un escenario que refleja tu esencia y tu historia, diseñando atmósferas únicas a través de arreglos florales, estructuras, iluminación y una cuidada selección de materiales. Desde ceremonias románticas hasta celebraciones contemporáneas, cada elemento se integra en un concepto visual coherente, creando espacios que te emocionan y dejan una huella duradera.",
+  "services.music.extra": "Te ayudamos a elegir músicos, bandas en directo, cuartetos de cuerda, DJ y otras propuestas de entretenimiento que complementen tu estilo. Desde la emoción de la ceremonia hasta la energía de la fiesta, cada sonido ayuda a crear recuerdos inolvidables: la banda sonora perfecta para vuestra historia.",
+  "services.stationery.extra": "La identidad visual de tu boda empieza por los detalles más pequeños. Te ayudamos a descubrir papelería personalizada, invitaciones, menús, planes de mesa, señalética y elementos gráficos coordinados, seleccionando diseños, tipografías y acabados que reflejan la esencia de tu celebración.",
+
+  "additionalServices.title": "Servicios adicionales",
+  "additionalServices.intro": "Además de nuestros servicios principales, también nos ocupamos de los detalles que hacen única una celebración, desde el mobiliario y la iluminación hasta las ceremonias, el transporte y los recuerdos personalizados.",
+
+  "additionalServices.furniture.title": "Mobiliario y alquiler decorativo",
+  "additionalServices.furniture.description": "Seleccionamos mobiliario y piezas decorativas que aportan personalidad, elegancia y carácter a tu celebración. Desde mesas y sillas hasta zonas lounge, estructuras y piezas singulares, cada elección refleja el estilo de tu boda. Combinamos con cuidado formas, texturas y materiales para crear una atmósfera armoniosa. Cada espacio se diseña pensando en la comodidad y la experiencia de tus invitados.",
+  "additionalServices.furniture.alt": "Larga mesa de banquete con sillas de madera de respaldo cruzado y centros de mesa florales en tonos burdeos, en un comedor de castillo",
+
+  "additionalServices.guestExperiences.title": "Experiencias y entretenimiento para invitados",
+  "additionalServices.guestExperiences.description": "Convertimos tu boda en una celebración interactiva, original y llena de sorpresas. Te ayudamos a descubrir experiencias como ilustración en directo, rincones interactivos, glitter bars, tatuajes temporales y espacios de actividades personalizados. Seleccionamos propuestas que reflejan la personalidad de la pareja y la atmósfera deseada. Detalles pensados para que tus invitados disfruten, conecten y creen recuerdos únicos.",
+  "additionalServices.guestExperiences.alt": "Novios intercambiando guirnaldas de flores, rodeados de invitados y decoración floral",
+
+  "additionalServices.favours.title": "Detalles para invitados y regalos personalizados",
+  "additionalServices.favours.description": "Te ayudamos a encontrar regalos especiales para agradecer a tus invitados que compartan contigo tu gran día. Desde obsequios personalizados y recuerdos artesanales hasta ideas originales inspiradas en vuestra historia, cada detalle se elige con intención. Buscamos opciones que combinen estética, practicidad y personalidad. Una forma significativa de convertir tu gratitud en un recuerdo inolvidable.",
+  "additionalServices.favours.alt": "Vista cercana de una mesa iluminada con velas, con servilletas dobladas, cubiertos y rosas",
+
+  "additionalServices.ceremonies.title": "Ceremonias de boda y celebrantes",
+  "additionalServices.ceremonies.description": "Te guiamos en la búsqueda de profesionales capaces de dar voz a vuestra historia y a vuestros sentimientos. Ya sea que imagines una emotiva ceremonia simbólica o una celebración personalizada, te ayudamos a descubrir el estilo que mejor te representa. Cada palabra y cada momento pueden diseñarse para reflejar vuestra relación. Una ceremonia auténtica, personal y llena de significado.",
+  "additionalServices.ceremonies.alt": "Pareja con atuendos tradicionales rojos y dorados compartiendo una ceremonia del té entre farolillos y flores rojas",
+
+  "additionalServices.lighting.title": "Iluminación y efectos especiales",
+  "additionalServices.lighting.description": "La iluminación transforma los espacios y define la atmósfera de cada momento. Te ayudamos a encontrar profesionales especializados en iluminación ambiental, instalaciones decorativas y efectos especiales adaptados a tu espacio y al concepto de tu boda. Desde una cena íntima hasta una fiesta vibrante, cada elemento se integra en el diseño global. Un escenario cautivador que sorprende y emociona.",
+  "additionalServices.lighting.alt": "Altas velas de color marfil y un candelabro dorado resplandeciendo sobre madera oscura tallada",
+
+  "additionalServices.transportation.title": "Transporte para bodas",
+  "additionalServices.transportation.description": "También nos encargamos de organizar tu transporte para que la experiencia sea cómoda y especial desde el primer momento. Te ayudamos a encontrar opciones de transporte para los novios y sus invitados, desde elegantes vehículos clásicos hasta soluciones para grupos más numerosos. Cada propuesta se adapta a tus necesidades, a tu calendario y al estilo de tu celebración. Porque cada trayecto también forma parte de tu día especial.",
+  "additionalServices.transportation.alt": "Novios paseando de la mano por una terraza junto al mar al atardecer",
+
+  "additionalServices.keepsakes.title": "Papelería, recuerdos y arte en directo",
+  "additionalServices.keepsakes.description": "Incorporamos elementos creativos que convierten tu boda en una celebración personal y artística. Desde ilustraciones en directo hasta creaciones a medida y recuerdos personalizados, te ayudamos a encontrar profesionales que aportan un toque distintivo a tu evento. Cada propuesta busca conectar con vuestra historia y sorprender a tus invitados. Arte y creatividad para una celebración con identidad propia.",
+  "additionalServices.keepsakes.alt": "Cuaderno de bocetos abierto con un bolígrafo sobre un escritorio",
+
   "services.process.eyebrow": "Nuestro proceso",
   "services.process.title": "De la primera idea al último momento",
   "services.process.text": "Un proceso claro, creativo y colaborativo da a cada celebración su propia identidad.",

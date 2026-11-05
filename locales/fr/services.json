@@ -50,6 +50,48 @@
   "services.planning.description": "Nous vous accompagnons tout au long de l’organisation de votre mariage, en veillant à chaque détail pour que tout s’assemble sans accroc. Nous coordonnons les prestataires, les plannings, les lieux et les besoins particuliers afin que vous profitiez de cette préparation en toute sérénité.\n\nNous pouvons également assurer la coordination du jour J, en supervisant toute la célébration du début à la fin. Notre objectif : vous permettre de vivre pleinement votre journée, sans avoir à vous soucier de l’organisation.",
   "services.planning.alt": "Cérémonie en plein air sous une arche sculpturale couleur terracotta, avec des invités assis sur des chaises en osier",
 
+  "services.main.title": "Services principaux de mariage",
+
+  "services.photography.extra": "Chaque mariage est rempli de moments uniques qui méritent d’être conservés pour toujours. Nous recherchons des professionnels capables de capturer votre histoire avec sensibilité, authenticité et un regard artistique, des préparatifs aux derniers instants de la célébration, afin que chaque image transmette une émotion sincère : des souvenirs qui vous permettent de revivre votre journée encore et encore.",
+  "services.catering.extra": "Une expérience gastronomique soigneusement composée, conçue pour enchanter et inspirer.",
+  "services.cakes.extra": "Nous célébrons le côté le plus gourmand de votre mariage avec des créations qui allient créativité, saveur et esthétique. Chaque création peut être adaptée à l’identité visuelle et au concept global de votre mariage : de petits moments de plaisir.",
+  "services.hair.extra": "Nous vous mettons en relation avec des professionnels spécialisés qui s’adaptent à votre style, à vos préférences et à vos besoins, pour que vous vous sentiez confiante, rayonnante et fidèle à vous-même.",
+  "services.attire.extra": "Nous recherchons des options qui s’accordent avec votre vision, car chaque choix contribue à l’expérience et à l’esthétique d’ensemble de la célébration. La véritable élégance consiste à trouver ce qui vous représente.",
+  "services.decoration.extra": "Nous transformons chaque espace en un décor qui reflète votre essence et votre histoire, en créant des atmosphères uniques grâce aux compositions florales, aux structures, à l’éclairage et à une sélection soignée de matériaux. Des cérémonies romantiques aux célébrations contemporaines, chaque élément s’intègre à un concept visuel cohérent, pour créer des espaces qui vous touchent et laissent une impression durable.",
+  "services.music.extra": "Nous vous aidons à choisir musiciens, groupes live, quatuors à cordes, DJ et autres animations qui complètent votre style. De l’émotion de la cérémonie à l’énergie de la fête, chaque son contribue à créer des souvenirs inoubliables : la bande-son idéale de votre histoire.",
+  "services.stationery.extra": "L’identité visuelle de votre mariage commence par les plus petits détails. Nous vous aidons à découvrir une papeterie personnalisée, des faire-part, des menus, des plans de table, une signalétique et des éléments graphiques coordonnés, en sélectionnant des designs, des typographies et des finitions qui reflètent l’essence de votre célébration.",
+
+  "additionalServices.title": "Services complémentaires",
+  "additionalServices.intro": "Au-delà de nos services principaux, nous nous occupons aussi des détails qui rendent une célébration personnelle, du mobilier et de l’éclairage aux cérémonies, au transport et aux souvenirs personnalisés.",
+
+  "additionalServices.furniture.title": "Mobilier et location décorative",
+  "additionalServices.furniture.description": "Nous sélectionnons du mobilier et des pièces décoratives qui apportent personnalité, élégance et caractère à votre célébration. Des tables et chaises aux espaces lounge, en passant par les structures et les pièces signature, chaque choix reflète le style de votre mariage. Nous associons avec soin les formes, les textures et les matières pour créer une atmosphère harmonieuse. Chaque espace est pensé dans le souci du confort et de l’expérience de vos invités.",
+  "additionalServices.furniture.alt": "Longue table de banquet avec chaises en bois à dossier croisé et centres de table floraux bordeaux dans une salle à manger de château",
+
+  "additionalServices.guestExperiences.title": "Expériences et animations pour les invités",
+  "additionalServices.guestExperiences.description": "Nous transformons votre mariage en une célébration interactive, originale et pleine de surprises. Nous vous aidons à découvrir des expériences telles que l’illustration en direct, les stations interactives, les glitter bars, les tatouages temporaires et les coins d’activités personnalisés. Nous sélectionnons des propositions qui reflètent la personnalité du couple et l’ambiance souhaitée. Des attentions pensées pour que vos invités profitent, se rapprochent et créent des souvenirs uniques.",
+  "additionalServices.guestExperiences.alt": "Mariés échangeant des guirlandes de fleurs, entourés d’invités et de décors floraux",
+
+  "additionalServices.favours.title": "Cadeaux d’invités et présents personnalisés",
+  "additionalServices.favours.description": "Nous vous aidons à trouver de jolis présents pour remercier vos invités de partager votre grand jour. Des cadeaux personnalisés et souvenirs artisanaux aux idées originales inspirées de votre histoire, chaque détail est choisi avec intention. Nous recherchons des options qui allient esthétique, utilité et personnalité. Une façon pleine de sens de transformer votre gratitude en souvenir inoubliable.",
+  "additionalServices.favours.alt": "Vue rapprochée d’une table éclairée aux bougies, avec serviettes pliées, couverts et roses",
+
+  "additionalServices.ceremonies.title": "Cérémonies de mariage et officiants",
+  "additionalServices.ceremonies.description": "Nous vous guidons dans la recherche de professionnels capables de donner une voix à votre histoire et à vos émotions. Que vous imaginiez une cérémonie symbolique pleine d’émotion ou une célébration personnalisée, nous vous aidons à découvrir le style qui vous ressemble le plus. Chaque mot et chaque moment peuvent être façonnés pour refléter votre relation. Une cérémonie authentique, personnelle et pleine de sens.",
+  "additionalServices.ceremonies.alt": "Couple en tenues traditionnelles rouges et dorées partageant une cérémonie du thé parmi les lanternes et les fleurs rouges",
+
+  "additionalServices.lighting.title": "Éclairage et effets spéciaux",
+  "additionalServices.lighting.description": "L’éclairage transforme les espaces et définit l’atmosphère de chaque instant. Nous vous aidons à trouver des professionnels spécialisés dans l’éclairage d’ambiance, les installations décoratives et les effets spéciaux adaptés à votre lieu et au concept de votre mariage. D’un dîner intime à une soirée vibrante, chaque élément s’intègre à la conception d’ensemble. Un cadre captivant qui surprend et émeut.",
+  "additionalServices.lighting.alt": "Hautes bougies ivoire et chandelier doré rayonnant sur des boiseries sombres sculptées",
+
+  "additionalServices.transportation.title": "Transport de mariage",
+  "additionalServices.transportation.description": "Nous nous occupons également de votre transport afin d’offrir une expérience confortable et unique dès le début. Nous vous aidons à trouver des solutions de transport pour les mariés et leurs invités, des élégants véhicules classiques aux solutions pour les groupes plus importants. Chaque proposition est adaptée à vos besoins, à votre planning et au style de votre célébration. Car chaque trajet fait aussi partie de votre journée exceptionnelle.",
+  "additionalServices.transportation.alt": "Mariés marchant main dans la main sur une terrasse en bord de mer au coucher du soleil",
+
+  "additionalServices.keepsakes.title": "Papeterie, souvenirs et art en direct",
+  "additionalServices.keepsakes.description": "Nous introduisons des éléments créatifs qui font de votre mariage une célébration personnelle et artistique. De l’illustration en direct aux créations sur mesure et aux souvenirs personnalisés, nous vous aidons à trouver des professionnels qui apportent une touche distinctive à votre événement. Chaque proposition cherche à rejoindre votre histoire et à surprendre vos invités. De l’art et de la créativité pour une célébration à votre image.",
+  "additionalServices.keepsakes.alt": "Carnet de croquis ouvert avec un stylo posé sur un bureau",
+
   "services.process.eyebrow": "Notre processus",
   "services.process.title": "De la première idée au dernier instant",
   "services.process.text": "Un processus clair, créatif et collaboratif donne à chaque célébration sa propre identité.",

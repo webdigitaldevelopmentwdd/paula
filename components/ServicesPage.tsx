@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import Reveal from './Reveal';
 import { useServicesText } from './useServicesText';
-import { PROCESS_STEP_NUMBERS, SERVICE_ITEMS } from '@/lib/services-content';
+import { hasServicesText } from '@/lib/services-i18n';
+import { ADDITIONAL_ITEMS, PROCESS_STEP_NUMBERS, SERVICE_ITEMS, type ServiceGroup, type ServiceItem } from '@/lib/services-content';
 import './ServicesPage.css';
 
 /**
@@ -13,6 +14,43 @@ import './ServicesPage.css';
 export default function ServicesPage() {
   const tr = useServicesText();
 
+  const rows = (items: ServiceItem[], group: ServiceGroup) =>
+    items.map((s, i) => {
+      const title = tr(`${group}.${s.id}.title`);
+      // A main service may carry an extra paragraph merged in from the additional-services text.
+      const paragraphs = [tr(`${group}.${s.id}.description`), hasServicesText(`${group}.${s.id}.extra`) ? tr(`${group}.${s.id}.extra`) : '']
+        .filter(Boolean)
+        .flatMap((t) => t.split('\n\n'));
+      return (
+        <Reveal as="article" className={`sv-row${i % 2 ? ' sv-row-flip' : ''}`} key={s.id}>
+          <div className="sv-media">
+            <div className="wp-frame">
+              <img
+                src={s.image}
+                alt={tr(`${group}.${s.id}.alt`)}
+                width={s.width}
+                height={s.height}
+                loading={group === 'services' && i < 2 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+            </div>
+          </div>
+          <div className="sv-copy">
+            <span className="sv-num">{s.number}</span>
+            <h3 id={`service-${s.id}`}>{title}</h3>
+            {paragraphs.map((para, n) => (
+              <p key={n}>{para}</p>
+            ))}
+            <div className="sv-actions">
+              <Link className="btn btn-dark" href="/contact" aria-label={`${tr('services.enquire')}: ${title}`}>
+                {tr('services.enquire')}&nbsp; →
+              </Link>
+            </div>
+          </div>
+        </Reveal>
+      );
+    });
+
   return (
     <>
       <section className="sv-hero">
@@ -21,46 +59,31 @@ export default function ServicesPage() {
             <div className="eyebrow">{tr('services.page.eyebrow')}</div>
             <h2>{tr('services.page.title')}</h2>
             <p className="sv-lead">{tr('services.page.intro')}</p>
+            <nav className="sv-jump" aria-label={tr('services.list.label')}>
+              <a className="arrow-link" href="#main-services">{tr('services.main.title')} ↓</a>
+              <a className="arrow-link" href="#additional-services">{tr('additionalServices.title')} ↓</a>
+            </nav>
             <span className="wp-rule" aria-hidden="true" />
           </Reveal>
         </div>
       </section>
 
-      <section className="sv-list" aria-label={tr('services.list.label')}>
+      <section className="sv-block" id="main-services" aria-labelledby="sv-main-title">
         <div className="wrap">
-          {SERVICE_ITEMS.map((s, i) => {
-            const title = tr(`services.${s.id}.title`);
-            return (
-              <Reveal as="article" className={`sv-row${i % 2 ? ' sv-row-flip' : ''}`} key={s.id}>
-                <div className="sv-media">
-                  <div className="wp-frame">
-                    <img
-                      src={s.image}
-                      alt={tr(`services.${s.id}.alt`)}
-                      width={s.width}
-                      height={s.height}
-                      loading={i < 2 ? 'eager' : 'lazy'}
-                      decoding="async"
-                    />
-                  </div>
-                </div>
-                <div className="sv-copy">
-                  <span className="sv-num">{s.number}</span>
-                  <h3 id={`service-${s.id}`}>{title}</h3>
-                  {tr(`services.${s.id}.description`)
-                    .split('\n\n')
-                    .map((para, n) => (
-                      <p key={n}>{para}</p>
-                    ))}
-                  <div className="sv-actions">
-                    <Link className="btn btn-dark" href="/contact" aria-label={`${tr('services.enquire')}: ${title}`}>
-                      {tr('services.enquire')}&nbsp; →
-                    </Link>
-                  </div>
-                </div>
-              </Reveal>
-            );
-          })}
+          <Reveal className="sv-section-head">
+            <h2 id="sv-main-title">{tr('services.main.title')}</h2>
+          </Reveal>
+          {rows(SERVICE_ITEMS, 'services')}
+        </div>
+      </section>
+
+      <section className="sv-block sv-block-add" id="additional-services" aria-labelledby="sv-add-title">
+        <div className="wrap">
+          <Reveal className="sv-section-head">
+            <h2 id="sv-add-title">{tr('additionalServices.title')}</h2>
+            <p>{tr('additionalServices.intro')}</p>
+          </Reveal>
+          {rows(ADDITIONAL_ITEMS, 'additionalServices')}
         </div>
       </section>
 

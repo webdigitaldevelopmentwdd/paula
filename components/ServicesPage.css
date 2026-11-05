@@ -1,8 +1,18 @@
 /* Services page: the service rows reuse the site's existing editorial row styles (.sv-*, .wp-frame);
-   this file only adds what the ten-service layout needs. Loaded by the Services page only. */
+   this file only adds what the main + additional layout needs. Loaded by the Services page only. */
 
 .sv-copy h3{margin:.5rem 0 .8rem;font-size:clamp(2rem,3.4vw,3.1rem)}
 .sv-copy p{max-width:560px;color:#4f4942;font-size:1rem}
 .sv-copy p+p{margin-top:1em}
 .sv-copy .sv-actions{margin-top:24px}
 .sv-row{scroll-margin-top:100px}
+
+/* Two clearly separated groups: main services, then additional services */
+.sv-block{background:var(--ivory);padding:0 0 clamp(56px,8vw,110px);scroll-margin-top:76px}
+.sv-block-add{background:var(--paper);padding-top:clamp(56px,8vw,100px)}
+.sv-section-head{max-width:760px;margin:0 auto clamp(12px,2vw,28px);padding-top:clamp(6px,1.5vw,20px);text-align:center}
+.sv-section-head h2{margin:.2rem 0 .6rem;font-size:clamp(2rem,3.8vw,3.4rem)}
+.sv-section-head h2:after{content:"";display:block;width:64px;height:1px;margin:18px auto 0;background:var(--gold)}
+.sv-section-head p{margin:1.1rem auto 0;color:#4f4942}
+.sv-jump{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 30px;margin-top:22px}
+.sv-jump .arrow-link{margin-top:0}

@@ -50,6 +50,48 @@
   "services.planning.description": "We accompany you throughout the planning of your wedding, carefully managing every detail to ensure everything comes together seamlessly. We coordinate suppliers, schedules, venues and individual requirements so you can enjoy the process with complete peace of mind.\n\nWe can also take care of your wedding-day coordination, overseeing the entire celebration from beginning to end. Our goal is to allow you to experience your special day fully, without having to worry about the organisation.",
   "services.planning.alt": "Outdoor ceremony beneath a sculptural terracotta arch with guests seated on woven chairs",
 
+  "services.main.title": "Main Wedding Services",
+
+  "services.photography.extra": "Every wedding is filled with once-in-a-lifetime moments that deserve to be preserved forever. We look for professionals who capture your story with sensitivity, authenticity and an artistic eye, from the preparations to the final moments of the celebration, so that every image conveys genuine emotion: memories that let you relive your special day time and time again.",
+  "services.catering.extra": "A carefully curated dining experience, designed to delight and inspire.",
+  "services.cakes.extra": "We celebrate the sweeter side of your wedding with creations that combine creativity, flavour and aesthetics. Each design can be tailored to your wedding’s visual identity and overall concept: little moments of indulgence.",
+  "services.hair.extra": "We connect you with specialised professionals who adapt to your style, preferences and needs, so that you can feel confident, radiant and true to yourself.",
+  "services.attire.extra": "We seek options that align with your vision, because every choice contributes to the overall experience and aesthetic of the celebration. True elegance lies in finding what represents you.",
+  "services.decoration.extra": "We transform every space into a setting that reflects your essence and your story, designing unique atmospheres through floral arrangements, structures, lighting and a carefully curated selection of materials. From romantic ceremonies to contemporary celebrations, every element is integrated into a cohesive visual concept, creating spaces that move you and leave a lasting impression.",
+  "services.music.extra": "We help you select musicians, live bands, string quartets, DJs and other entertainment options that complement your style. From the emotion of the ceremony to the energy of the party, every sound helps create unforgettable memories: the perfect soundtrack to your story.",
+  "services.stationery.extra": "Your wedding’s visual identity begins with the smallest details. We help you discover personalised stationery, invitations, menus, seating plans, signage and coordinated graphic elements, selecting designs, typography and finishes that reflect the essence of your celebration.",
+
+  "additionalServices.title": "Additional Services",
+  "additionalServices.intro": "Beyond our main services, we can also look after the details that make a celebration personal, from furniture and lighting to ceremonies, transport and personalised keepsakes.",
+
+  "additionalServices.furniture.title": "Furniture & Decorative Rentals",
+  "additionalServices.furniture.description": "We select furniture and decorative pieces that bring personality, elegance, and character to your celebration. From tables and chairs to lounge areas, structures, and distinctive statement pieces, every choice reflects your wedding style. We carefully combine shapes, textures, and materials to create a harmonious atmosphere. Every space is designed with your guests’ comfort and experience in mind.",
+  "additionalServices.furniture.alt": "Long banquet table with wooden cross-back chairs and burgundy floral centrepieces in a castle dining room",
+
+  "additionalServices.guestExperiences.title": "Guest Experiences & Entertainment",
+  "additionalServices.guestExperiences.description": "We turn your wedding into an interactive, original celebration filled with surprises. We help you discover experiences such as live illustration, interactive stations, glitter bars, temporary tattoos, and personalised activity corners. We select options that reflect the couple’s personality and desired atmosphere. Thoughtful details that invite your guests to enjoy, connect, and create unique memories.",
+  "additionalServices.guestExperiences.alt": "Bride and groom exchanging flower garlands, surrounded by guests and floral decor",
+
+  "additionalServices.favours.title": "Guest Favours & Personalised Gifts",
+  "additionalServices.favours.description": "We help you find special gifts to thank your guests for being part of your big day. From personalised presents and handcrafted keepsakes to original ideas inspired by your story, every detail is chosen with intention. We seek options that combine aesthetics, practicality, and personality. A meaningful way to turn your gratitude into an unforgettable keepsake.",
+  "additionalServices.favours.alt": "Close view of a candlelit table with folded napkins, place settings and roses",
+
+  "additionalServices.ceremonies.title": "Wedding Ceremonies & Celebrants",
+  "additionalServices.ceremonies.description": "We guide you in finding professionals who can give voice to your story and your feelings. Whether you envision an emotional symbolic ceremony or a personalised celebration, we help you discover the style that best represents you. Every word and every moment can be crafted to reflect your relationship. An authentic, personal, and meaningful ceremony.",
+  "additionalServices.ceremonies.alt": "Couple in traditional red and gold attire sharing a tea ceremony among lanterns and red florals",
+
+  "additionalServices.lighting.title": "Lighting & Special Effects",
+  "additionalServices.lighting.description": "Lighting transforms spaces and defines the atmosphere of every moment. We help you find professionals specialising in ambient lighting, decorative installations, and special effects suited to your venue and wedding concept. From an intimate dinner to a vibrant party, every element is integrated into the overall design. A captivating setting that surprises and moves you.",
+  "additionalServices.lighting.alt": "Tall ivory candles and a gilded candelabra glowing against carved dark wood",
+
+  "additionalServices.transportation.title": "Wedding Transportation",
+  "additionalServices.transportation.description": "We also take care of your transport arrangements to ensure a comfortable and special experience from the very beginning. We help you find transportation options for the couple and their guests, from elegant classic vehicles to solutions for larger groups. Every proposal is tailored to your needs, schedule, and celebration style. Because every journey is also part of your special day.",
+  "additionalServices.transportation.alt": "Bride and groom walking hand in hand along a seaside terrace at sunset",
+
+  "additionalServices.keepsakes.title": "Stationery, Keepsakes & Live Art",
+  "additionalServices.keepsakes.description": "We introduce creative elements that transform your wedding into a personal and artistic celebration. From live illustrations to bespoke creations and personalised keepsakes, we help you find professionals who bring a distinctive touch to your event. Every proposal aims to connect with your story and surprise your guests. Art and creativity for a celebration with its own identity.",
+  "additionalServices.keepsakes.alt": "Open sketchbook with a pen resting on a desk",
+
   "services.process.eyebrow": "Our process",
   "services.process.title": "From the first idea to the final moment",
   "services.process.text": "A clear, creative and collaborative process gives every celebration its own identity.",
