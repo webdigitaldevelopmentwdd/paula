@@ -142,3 +142,51 @@ h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;l
 @media(max-width:760px){.wp-pair{grid-template-columns:1fr}.wp-pair-offset{margin-top:0}.wp-aesthetic-grid{grid-template-columns:1fr}.wp-swatch{width:46px;height:46px}.wp-figure figcaption{font-size:.62rem}}
 @media(prefers-reduced-motion:reduce){.wp-frame img{transition:none}.wp-figure:hover .wp-frame img{transform:none}}
 
+/* ===== Wedding Plans · Concept II — The Mediterranean in a Different Light ===== */
+.wp-concepts{position:sticky;top:76px;z-index:15;background:rgba(244,239,231,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.wp-concepts-inner{display:flex;justify-content:center;gap:clamp(18px,4vw,56px);padding:11px 0}
+.wp-concepts a{display:inline-flex;align-items:baseline;gap:10px;padding:4px 0;border-bottom:1px solid transparent;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;transition:color .25s,border-color .25s}
+.wp-concepts a:hover{color:var(--bordeaux);border-bottom-color:var(--gold)}
+.wp-concepts-num{font-family:"Bodoni Moda",serif;font-size:.85rem;color:var(--bordeaux)}
+.wp-concepts-short{display:none}
+#wedding-plans,#mediterranean{scroll-margin-top:120px}
+
+.med{--m-terra:#B4553A;--m-plum:#4B2340;--m-copper:#9A6A3E;--m-sand:#EADCC6;background:#F4EBDD;padding-top:clamp(64px,9vw,130px);border-top:1px solid var(--line)}
+.med-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(32px,6vw,96px);align-items:start}
+.med-copy{max-width:660px}
+.med-label{display:flex;align-items:center;gap:16px}
+.med-roman{font-family:"Bodoni Moda",serif;font-size:1.6rem;line-height:1;color:var(--m-terra)}
+.med-label .eyebrow{color:var(--m-terra)}
+.med h2.med-title{font-size:clamp(2.6rem,5.4vw,5.2rem);line-height:1.02;margin:.5rem 0 .9rem}
+.med-copy .med-subtitle{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-size:clamp(1.2rem,2.1vw,1.7rem);line-height:1.3;color:var(--m-copper)}
+.med-rule{display:block;width:84px;height:1px;background:var(--m-terra);margin:28px 0 30px}
+.med-copy p{margin:0 0 1.35em;color:#4f4439}
+.med-copy .med-lead{margin-bottom:1.1em;font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(1.5rem,2.3vw,2.1rem);line-height:1.35;color:var(--ink)}
+.med-copy .med-closing{margin-top:2em;padding-left:22px;border-left:2px solid var(--m-terra);font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-size:clamp(1.25rem,1.8vw,1.55rem);line-height:1.5;color:var(--m-plum)}
+.med-visual{position:sticky;top:150px;padding:0 16px 16px 0}
+.med-visual .wp-frame{box-shadow:16px 16px 0 var(--m-sand)}
+.med .wp-figure figcaption{color:#7a6b5c}
+.med-gallery{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(18px,3vw,44px);align-items:start;padding-top:clamp(56px,8vw,110px)}
+.med-gallery-side{margin-top:clamp(0px,7vw,110px)}
+.med-aesthetic{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);column-gap:clamp(32px,6vw,96px);row-gap:clamp(34px,5vw,56px);align-items:start;padding-top:clamp(64px,9vw,130px);padding-bottom:clamp(60px,8vw,110px)}
+.med-aesthetic-head{grid-column:1;grid-row:1/span 2;position:sticky;top:150px}
+.med-aesthetic .med-block{grid-column:2}
+.med-aesthetic-head .eyebrow{color:var(--m-terra)}
+.med-aesthetic-head h2{margin-bottom:0}
+.med-block h3{margin:0 0 20px;padding-bottom:14px;border-bottom:1px solid var(--m-terra);font-size:clamp(1.4rem,2.2vw,1.9rem)}
+.med-palette,.med-materials{list-style:none;margin:0;padding:0}
+.med-palette{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(8px,1.4vw,16px)}
+.med-tile{display:block;height:clamp(110px,14vw,170px);border-radius:999px 999px 0 0;box-shadow:inset 0 0 0 1px rgba(41,38,34,.2)}
+.med-tile-name{display:block;margin-top:10px;font-family:"Cormorant Garamond",Georgia,serif;font-size:1.15rem;line-height:1.2;text-align:center}
+.med-materials{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(20px,4vw,48px)}
+.med-materials li{position:relative;padding:15px 0 15px 28px;border-bottom:1px solid var(--line);font-family:"Cormorant Garamond",Georgia,serif;font-size:1.4rem;line-height:1.3}
+.med-materials li:before{content:"";position:absolute;left:0;top:50%;width:14px;height:1px;background:var(--m-terra)}
+.med-essence{background:var(--m-plum);color:#F4EBDD;text-align:center;padding:clamp(70px,10vw,140px) 0}
+.med-essence-inner{max-width:760px;margin:0 auto}
+.med-essence h2{margin:26px 0 18px}
+.med-essence p{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.45;color:#eadccb}
+.med-rule-light{background:#C9855E}
+.med-rule-light:after{background:var(--m-plum);border-color:#C9855E}
+@media(max-width:900px){.med-top{grid-template-columns:1fr}.med-visual{position:static;width:100%;max-width:476px;margin:0 auto}.med-copy{max-width:none}.med-aesthetic{grid-template-columns:1fr}.med-aesthetic-head,.med-aesthetic .med-block{grid-column:auto;grid-row:auto;position:static}}
+@media(max-width:760px){.wp-concepts{top:68px}.wp-concepts-long{display:none}.wp-concepts-short{display:inline}#wedding-plans,#mediterranean{scroll-margin-top:112px}.med-gallery{grid-template-columns:1fr}.med-gallery-side{margin-top:0}.med-materials{grid-template-columns:1fr}.med-palette{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:22px}.med-tile{height:120px}}
+
