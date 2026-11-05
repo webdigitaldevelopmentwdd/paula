@@ -1,0 +1,69 @@
+{
+  "services.crumb.home": "Home",
+  "services.crumb.services": "Services",
+  "services.hero.title": "Our Services",
+  "services.hero.subtitle": "Thoughtful Planning, Exceptional Celebrations.",
+
+  "services.page.eyebrow": "Services",
+  "services.page.title": "Our Wedding Services",
+  "services.page.intro": "Eclesare by Paula designs bespoke weddings and celebrations where architecture, art and emotion meet. A close, collaborative process built around creative direction, careful planning and calm execution.",
+  "services.list.label": "Our wedding services",
+  "services.enquire": "Enquire About This Service",
+
+  "services.photography.title": "Photography & Videography",
+  "services.photography.description": "We capture every moment of your wedding and transform it into unforgettable memories. We help you find professionals who reflect your personality and style. From the preparations to the most special moments of the celebration, every detail is carefully considered. Our goal is to help you relive your love story through images filled with emotion.",
+  "services.photography.alt": "Couple kissing in a candlelit medieval stone hall flanked by white blossom trees",
+
+  "services.catering.title": "Catering & Gastronomy",
+  "services.catering.description": "Food is an essential part of your wedding experience. We help you discover culinary options that suit your tastes, needs and celebration style. From elegant cocktail receptions to signature menus, every choice is made with your guests in mind. We create a thoughtful and memorable gastronomic experience.",
+  "services.catering.alt": "Long dinner table with a terracotta runner, plates, linen napkins, candles and warm florals",
+
+  "services.cakes.title": "Wedding Cakes & Pastry",
+  "services.cakes.description": "Together, we design the sweet experience of your special day. We guide you through the selection of wedding cakes, dessert tables and personalised creations. Every proposal brings together flavour, aesthetics and personality. The result is a collection of unique details that delight both the eyes and the palate.",
+  "services.cakes.alt": "Elegant table set with gold-rimmed glassware, tall ivory candles and delicate floral details",
+
+  "services.hair.title": "Hair & Makeup",
+  "services.hair.description": "We take care of the bridal look and the styling of your bridesmaids, ensuring everyone feels special. We help you find hair and makeup professionals who match your style and preferences. From natural looks to sophisticated creations, every detail is handled with care. Our aim is to make your preparations relaxed and enjoyable, allowing you to feel confident and beautiful.",
+  "services.hair.alt": "Smiling woman with an elegant loose updo and red lipstick, wearing a black blazer",
+
+  "services.attire.title": "Bridal & Ceremony Attire",
+  "services.attire.description": "We accompany you in finding the perfect attire for your wedding day. From bridal gowns and groom's suits to outfits for bridesmaids and guests, we help you discover options that reflect your personality. Every choice complements your style and the essence of your celebration. Because dressing for a wedding is also part of creating an unforgettable experience.",
+  "services.attire.alt": "Bride in a lace gown and veil embracing the groom in a tuxedo at sunset",
+
+  "services.decoration.title": "Decoration & Floral Design",
+  "services.decoration.description": "We create atmospheres that express your personality through flowers, colours, textures and lighting. We design a cohesive aesthetic concept that complements your venue and wedding style. From the ceremony to the reception, every corner becomes part of your story. Our goal is to create decoration with identity, harmony and visual impact.",
+  "services.decoration.alt": "Old stone arches draped in autumn foliage with sculptural floral arrangements and woven lanterns",
+
+  "services.venues.title": "Wedding Venues & Estates",
+  "services.venues.description": "We help you find the perfect setting for your wedding, considering your preferences, budget and guest numbers. We select venues that align with the experience you wish to create. We carefully consider the aesthetics, functionality and customisation possibilities of every location. The perfect setting to begin a new chapter together.",
+  "services.venues.alt": "Gothic vaulted stone hall set with long banquet tables and white floral arrangements",
+
+  "services.music.title": "Music & Entertainment",
+  "services.music.description": "Music sets the rhythm and emotion of every moment of your celebration. We help you discover entertainment options that match your style, from live music and ceremony performances to DJs and party entertainment. Every proposal is tailored to the atmosphere you want to create. We design a musical experience that accompanies your story from beginning to end.",
+  "services.music.alt": "Bride and groom laughing as they exchange flower garlands during a festive celebration",
+
+  "services.stationery.title": "Wedding Stationery & Personalised Details",
+  "services.stationery.description": "We bring your wedding's visual identity to life through invitations, menus, seating plans and other personalised elements. We coordinate designs, materials and finishes to maintain a refined and consistent aesthetic. Every piece reflects your personality and gives guests a glimpse of the experience awaiting them. Small details that make your celebration truly unique.",
+  "services.stationery.alt": "Candlelit table with folded napkins and place settings among flowers at sunset",
+
+  "services.planning.title": "Full Wedding Planning & Coordination",
+  "services.planning.description": "We accompany you throughout the planning of your wedding, carefully managing every detail to ensure everything comes together seamlessly. We coordinate suppliers, schedules, venues and individual requirements so you can enjoy the process with complete peace of mind.\n\nWe can also take care of your wedding-day coordination, overseeing the entire celebration from beginning to end. Our goal is to allow you to experience your special day fully, without having to worry about the organisation.",
+  "services.planning.alt": "Outdoor ceremony beneath a sculptural terracotta arch with guests seated on woven chairs",
+
+  "services.process.eyebrow": "Our process",
+  "services.process.title": "From the first idea to the final moment",
+  "services.process.text": "A clear, creative and collaborative process gives every celebration its own identity.",
+  "services.process.1.title": "Concept",
+  "services.process.1.text": "Story, inspiration and creative direction.",
+  "services.process.2.title": "Design",
+  "services.process.2.text": "Materials, palette, spatial studies and moodboards.",
+  "services.process.3.title": "Planning",
+  "services.process.3.text": "Partners, logistics, guest experience and schedule.",
+  "services.process.4.title": "Execution",
+  "services.process.4.text": "Production, coordination and thoughtful delivery.",
+
+  "services.cta.eyebrow": "Your celebration begins here",
+  "services.cta.title": "Let’s create something meaningful.",
+  "services.cta.text": "Tell us a little about your plans, the place you imagine and what matters most to you.",
+  "services.cta.button": "Contact Us  →"
+}

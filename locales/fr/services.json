@@ -1,0 +1,69 @@
+{
+  "services.crumb.home": "Accueil",
+  "services.crumb.services": "Services",
+  "services.hero.title": "Nos services",
+  "services.hero.subtitle": "Une planification attentive, des célébrations d’exception.",
+
+  "services.page.eyebrow": "Services",
+  "services.page.title": "Nos services de mariage",
+  "services.page.intro": "Eclesare by Paula imagine des mariages et des célébrations sur mesure où l’architecture, l’art et l’émotion se rencontrent. Un processus collaboratif fondé sur la direction artistique, une planification attentive et une réalisation sereine.",
+  "services.list.label": "Nos services de mariage",
+  "services.enquire": "Nous consulter sur ce service",
+
+  "services.photography.title": "Photographie et vidéographie",
+  "services.photography.description": "Nous capturons chaque instant de votre mariage pour en faire des souvenirs inoubliables. Nous vous aidons à trouver des professionnels qui reflètent votre personnalité et votre style. Des préparatifs aux moments les plus précieux de la célébration, chaque détail est pensé avec soin. Notre objectif : vous permettre de revivre votre histoire d’amour à travers des images pleines d’émotion.",
+  "services.photography.alt": "Couple s’embrassant dans une salle médiévale en pierre éclairée aux bougies, entre deux arbres en fleurs blanches",
+
+  "services.catering.title": "Traiteur et gastronomie",
+  "services.catering.description": "La cuisine est un élément essentiel de l’expérience de votre mariage. Nous vous aidons à découvrir des propositions culinaires qui correspondent à vos goûts, à vos besoins et au style de votre célébration. Des cocktails élégants aux menus signature, chaque choix est pensé pour vos invités. Nous créons une expérience gastronomique soignée et mémorable.",
+  "services.catering.alt": "Longue table de banquet avec chemin de table terracotta, assiettes, serviettes en lin, bougies et fleurs aux tons chauds",
+
+  "services.cakes.title": "Gâteaux de mariage et pâtisserie",
+  "services.cakes.description": "Ensemble, nous concevons l’expérience la plus gourmande de votre grand jour. Nous vous guidons dans le choix des gâteaux de mariage, des tables de douceurs et des créations personnalisées. Chaque proposition allie saveur, esthétique et personnalité. Le résultat : une collection de détails uniques qui enchantent autant les yeux que le palais.",
+  "services.cakes.alt": "Élégante table dressée avec des verres à liseré doré, de hautes bougies ivoire et de délicats détails floraux",
+
+  "services.hair.title": "Coiffure et maquillage",
+  "services.hair.description": "Nous prenons soin du look de la mariée ainsi que de la coiffure et du maquillage de vos demoiselles d’honneur, afin que chacune se sente unique. Nous vous aidons à trouver des professionnels de la coiffure et du maquillage qui correspondent à votre style et à vos envies. Des looks naturels aux créations sophistiquées, chaque détail est traité avec soin. Notre but : que vos préparatifs soient sereins et agréables, pour que vous vous sentiez confiante et belle.",
+  "services.hair.alt": "Femme souriante avec un élégant chignon souple et des lèvres rouges, vêtue d’un blazer noir",
+
+  "services.attire.title": "Tenues de mariage et de cérémonie",
+  "services.attire.description": "Nous vous accompagnons dans la recherche de la tenue idéale pour le jour de votre mariage. Des robes de mariée et costumes de marié aux tenues des demoiselles d’honneur et des invités, nous vous aidons à découvrir des options qui reflètent votre personnalité. Chaque choix s’harmonise avec votre style et avec l’essence de votre célébration. Car s’habiller pour un mariage fait aussi partie de la création d’une expérience inoubliable.",
+  "services.attire.alt": "Mariée en robe de dentelle et voile enlaçant le marié en smoking au coucher du soleil",
+
+  "services.decoration.title": "Décoration et art floral",
+  "services.decoration.description": "Nous créons des atmosphères qui expriment votre personnalité à travers les fleurs, les couleurs, les textures et la lumière. Nous concevons un concept esthétique cohérent, en accord avec votre lieu et le style de votre mariage. De la cérémonie à la réception, chaque recoin fait partie de votre histoire. Notre objectif : une décoration qui a de l’identité, de l’harmonie et de l’impact visuel.",
+  "services.decoration.alt": "Anciennes arches de pierre drapées de feuillage d’automne, avec des compositions florales sculpturales et des lanternes tressées",
+
+  "services.venues.title": "Lieux et domaines de réception",
+  "services.venues.description": "Nous vous aidons à trouver le cadre idéal pour votre mariage, en tenant compte de vos préférences, de votre budget et du nombre d’invités. Nous sélectionnons des lieux en phase avec l’expérience que vous souhaitez créer. Nous étudions avec soin l’esthétique, la fonctionnalité et les possibilités de personnalisation de chaque lieu. Le cadre parfait pour ouvrir ensemble un nouveau chapitre.",
+  "services.venues.alt": "Salle gothique voûtée en pierre aménagée pour un banquet de mariage, avec de longues tables et des compositions florales blanches",
+
+  "services.music.title": "Musique et animation",
+  "services.music.description": "La musique donne son rythme et son émotion à chaque moment de votre célébration. Nous vous aidons à découvrir des animations qui vous ressemblent, de la musique live et des prestations pour la cérémonie aux DJ et à l’animation de la soirée. Chaque proposition est adaptée à l’ambiance que vous souhaitez créer. Nous concevons une expérience musicale qui accompagne votre histoire du début à la fin.",
+  "services.music.alt": "Mariés éclatant de rire en échangeant des guirlandes de fleurs lors d’une célébration festive",
+
+  "services.stationery.title": "Papeterie de mariage et détails personnalisés",
+  "services.stationery.description": "Nous donnons vie à l’identité visuelle de votre mariage à travers les faire-part, les menus, les plans de table et d’autres éléments personnalisés. Nous coordonnons les designs, les matières et les finitions pour préserver une esthétique raffinée et cohérente. Chaque pièce reflète votre personnalité et offre à vos invités un avant-goût de l’expérience qui les attend. De petits détails qui rendent votre célébration vraiment unique.",
+  "services.stationery.alt": "Table éclairée aux bougies avec serviettes pliées et couverts parmi les fleurs au coucher du soleil",
+
+  "services.planning.title": "Organisation et coordination complètes du mariage",
+  "services.planning.description": "Nous vous accompagnons tout au long de l’organisation de votre mariage, en veillant à chaque détail pour que tout s’assemble sans accroc. Nous coordonnons les prestataires, les plannings, les lieux et les besoins particuliers afin que vous profitiez de cette préparation en toute sérénité.\n\nNous pouvons également assurer la coordination du jour J, en supervisant toute la célébration du début à la fin. Notre objectif : vous permettre de vivre pleinement votre journée, sans avoir à vous soucier de l’organisation.",
+  "services.planning.alt": "Cérémonie en plein air sous une arche sculpturale couleur terracotta, avec des invités assis sur des chaises en osier",
+
+  "services.process.eyebrow": "Notre processus",
+  "services.process.title": "De la première idée au dernier instant",
+  "services.process.text": "Un processus clair, créatif et collaboratif donne à chaque célébration sa propre identité.",
+  "services.process.1.title": "Concept",
+  "services.process.1.text": "Histoire, inspiration et direction artistique.",
+  "services.process.2.title": "Design",
+  "services.process.2.text": "Matières, palette, études spatiales et moodboards.",
+  "services.process.3.title": "Planification",
+  "services.process.3.text": "Prestataires, logistique, expérience des invités et planning.",
+  "services.process.4.title": "Exécution",
+  "services.process.4.text": "Production, coordination et réalisation soignée.",
+
+  "services.cta.eyebrow": "Votre célébration commence ici",
+  "services.cta.title": "Créons quelque chose qui a du sens.",
+  "services.cta.text": "Parlez-nous de votre projet, du lieu imaginé et de ce qui compte le plus pour vous.",
+  "services.cta.button": "Nous contacter  →"
+}

@@ -1,0 +1,69 @@
+{
+  "services.crumb.home": "Inicio",
+  "services.crumb.services": "Servicios",
+  "services.hero.title": "Nuestros servicios",
+  "services.hero.subtitle": "Planificación cuidada, celebraciones excepcionales.",
+
+  "services.page.eyebrow": "Servicios",
+  "services.page.title": "Nuestros servicios de boda",
+  "services.page.intro": "Eclesare by Paula diseña bodas y celebraciones a medida donde la arquitectura, el arte y la emoción se encuentran. Un proceso cercano y colaborativo basado en dirección creativa, planificación cuidadosa y ejecución serena.",
+  "services.list.label": "Nuestros servicios de boda",
+  "services.enquire": "Consulta sobre este servicio",
+
+  "services.photography.title": "Fotografía y videografía",
+  "services.photography.description": "Capturamos cada instante de tu boda y lo convertimos en recuerdos inolvidables. Te ayudamos a encontrar profesionales que reflejen tu personalidad y tu estilo. Desde los preparativos hasta los momentos más especiales de la celebración, cada detalle está cuidadosamente pensado. Nuestro objetivo es que puedas revivir tu historia de amor a través de imágenes llenas de emoción.",
+  "services.photography.alt": "Pareja besándose en un salón medieval de piedra iluminado con velas, entre dos árboles de flor blanca",
+
+  "services.catering.title": "Catering y gastronomía",
+  "services.catering.description": "La comida es una parte esencial de la experiencia de tu boda. Te ayudamos a descubrir propuestas gastronómicas que se adapten a tus gustos, a tus necesidades y al estilo de tu celebración. Desde elegantes cócteles de bienvenida hasta menús de autor, cada elección se hace pensando en tus invitados. Creamos una experiencia gastronómica cuidada y memorable.",
+  "services.catering.alt": "Larga mesa de banquete con camino de mesa terracota, platos, servilletas de lino, velas y flores en tonos cálidos",
+
+  "services.cakes.title": "Tartas nupciales y repostería",
+  "services.cakes.description": "Diseñamos juntos la experiencia más dulce de tu gran día. Te guiamos en la elección de tartas nupciales, mesas de dulces y creaciones personalizadas. Cada propuesta une sabor, estética y personalidad. El resultado es un conjunto de detalles únicos que deleitan tanto a la vista como al paladar.",
+  "services.cakes.alt": "Elegante mesa con copas de borde dorado, velas altas de color marfil y delicados detalles florales",
+
+  "services.hair.title": "Peluquería y maquillaje",
+  "services.hair.description": "Nos ocupamos del look de la novia y del estilismo de tus damas de honor, para que todas se sientan especiales. Te ayudamos a encontrar profesionales de peluquería y maquillaje que se ajusten a tu estilo y a tus preferencias. Desde looks naturales hasta creaciones sofisticadas, cada detalle se cuida con esmero. Nuestro propósito es que tus preparativos sean relajados y agradables, para que te sientas segura y hermosa.",
+  "services.hair.alt": "Mujer sonriente con un elegante recogido informal y labios rojos, vestida con una americana negra",
+
+  "services.attire.title": "Vestuario nupcial y de ceremonia",
+  "services.attire.description": "Te acompañamos en la búsqueda del vestuario perfecto para el día de tu boda. Desde vestidos de novia y trajes de novio hasta looks para damas de honor e invitados, te ayudamos a descubrir opciones que reflejen tu personalidad. Cada elección complementa tu estilo y la esencia de tu celebración. Porque vestirse para una boda también forma parte de crear una experiencia inolvidable.",
+  "services.attire.alt": "Novia con vestido de encaje y velo abrazando al novio con esmoquin al atardecer",
+
+  "services.decoration.title": "Decoración y diseño floral",
+  "services.decoration.description": "Creamos ambientes que expresan tu personalidad a través de flores, colores, texturas e iluminación. Diseñamos un concepto estético coherente que complementa tu espacio y el estilo de tu boda. Desde la ceremonia hasta el banquete, cada rincón forma parte de tu historia. Nuestro objetivo es lograr una decoración con identidad, armonía e impacto visual.",
+  "services.decoration.alt": "Antiguos arcos de piedra cubiertos de follaje otoñal, con arreglos florales escultóricos y farolillos de mimbre",
+
+  "services.venues.title": "Espacios y fincas para bodas",
+  "services.venues.description": "Te ayudamos a encontrar el escenario perfecto para tu boda, teniendo en cuenta tus preferencias, tu presupuesto y el número de invitados. Seleccionamos espacios acordes con la experiencia que quieres crear. Valoramos con atención la estética, la funcionalidad y las posibilidades de personalización de cada lugar. El marco ideal para empezar juntos un nuevo capítulo.",
+  "services.venues.alt": "Salón gótico de bóvedas de piedra preparado para un banquete de boda, con largas mesas y arreglos florales blancos",
+
+  "services.music.title": "Música y entretenimiento",
+  "services.music.description": "La música marca el ritmo y la emoción de cada momento de tu celebración. Te ayudamos a descubrir propuestas de entretenimiento acordes con tu estilo, desde música en directo y actuaciones durante la ceremonia hasta DJ y animación para la fiesta. Cada propuesta se adapta a la atmósfera que deseas crear. Diseñamos una experiencia musical que acompaña vuestra historia de principio a fin.",
+  "services.music.alt": "Novios riendo mientras intercambian guirnaldas de flores durante una celebración festiva",
+
+  "services.stationery.title": "Papelería nupcial y detalles personalizados",
+  "services.stationery.description": "Damos vida a la identidad visual de tu boda a través de invitaciones, menús, planes de mesa y otros elementos personalizados. Coordinamos diseños, materiales y acabados para mantener una estética refinada y coherente. Cada pieza refleja tu personalidad y ofrece a tus invitados un anticipo de la experiencia que les espera. Pequeños detalles que hacen que tu celebración sea verdaderamente única.",
+  "services.stationery.alt": "Mesa iluminada con velas, servilletas plegadas y cubiertos entre flores al atardecer",
+
+  "services.planning.title": "Planificación y coordinación integral de bodas",
+  "services.planning.description": "Te acompañamos durante toda la planificación de tu boda, cuidando cada detalle para que todo encaje a la perfección. Coordinamos proveedores, horarios, espacios y necesidades particulares para que disfrutes del proceso con total tranquilidad.\n\nTambién podemos encargarnos de la coordinación el día de la boda, supervisando toda la celebración de principio a fin. Nuestro objetivo es que vivas tu día especial plenamente, sin tener que preocuparte por la organización.",
+  "services.planning.alt": "Ceremonia al aire libre bajo un arco escultórico de color terracota, con invitados sentados en sillas de mimbre",
+
+  "services.process.eyebrow": "Nuestro proceso",
+  "services.process.title": "De la primera idea al último momento",
+  "services.process.text": "Un proceso claro, creativo y colaborativo da a cada celebración su propia identidad.",
+  "services.process.1.title": "Concepto",
+  "services.process.1.text": "Historia, inspiración y dirección creativa.",
+  "services.process.2.title": "Diseño",
+  "services.process.2.text": "Materiales, paleta, estudios espaciales y moodboards.",
+  "services.process.3.title": "Planificación",
+  "services.process.3.text": "Proveedores, logística, experiencia de los invitados y calendario.",
+  "services.process.4.title": "Ejecución",
+  "services.process.4.text": "Producción, coordinación y una entrega cuidada.",
+
+  "services.cta.eyebrow": "Tu celebración empieza aquí",
+  "services.cta.title": "Creemos algo significativo.",
+  "services.cta.text": "Cuéntanos tus planes, el lugar que imaginas y lo que más importa para ti.",
+  "services.cta.button": "Contáctanos  →"
+}

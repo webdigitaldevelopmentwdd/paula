@@ -14,9 +14,10 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 const STORAGE_KEY = 'eclesare-language';
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
+export function LanguageProvider({ children, defaultLang = 'es' }: { children: ReactNode; defaultLang?: string }) {
   // The original page defaults its selector to "es" and applies it on load.
-  const [lang, setLangState] = useState('es');
+  // A page may pass another defaultLang (used until the visitor has saved a preference).
+  const [lang, setLangState] = useState(defaultLang);
 
   // Restore saved language (the original read localStorage on load).
   useEffect(() => {

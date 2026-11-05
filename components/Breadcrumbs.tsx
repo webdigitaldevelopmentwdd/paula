@@ -1,11 +1,21 @@
+import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { SITE_URL } from '@/lib/site';
 
-export type Crumb = { name: string; href?: string };
+/** `name` feeds the structured data; `label` (optional) is what is shown, e.g. a translated text. */
+export type Crumb = { name: string; href?: string; label?: ReactNode };
 
 /** Visible breadcrumb trail plus BreadcrumbList structured data. The last crumb is the current page. */
-export default function Breadcrumbs({ items, className = '' }: { items: Crumb[]; className?: string }) {
-  const trail: Crumb[] = [{ name: 'Home', href: '/' }, ...items];
+export default function Breadcrumbs({
+  items,
+  className = '',
+  homeLabel,
+}: {
+  items: Crumb[];
+  className?: string;
+  homeLabel?: ReactNode;
+}) {
+  const trail: Crumb[] = [{ name: 'Home', href: '/', label: homeLabel }, ...items];
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -23,9 +33,10 @@ export default function Breadcrumbs({ items, className = '' }: { items: Crumb[];
         <ol>
           {trail.map((c, i) => {
             const last = i === trail.length - 1;
+            const text = c.label ?? c.name;
             return (
               <li key={c.name}>
-                {last || !c.href ? <span aria-current={last ? 'page' : undefined}>{c.name}</span> : <Link href={c.href}>{c.name}</Link>}
+                {last || !c.href ? <span aria-current={last ? 'page' : undefined}>{text}</span> : <Link href={c.href}>{text}</Link>}
               </li>
             );
           })}

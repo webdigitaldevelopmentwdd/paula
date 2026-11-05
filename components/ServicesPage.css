@@ -1,0 +1,8 @@
+/* Services page: the service rows reuse the site's existing editorial row styles (.sv-*, .wp-frame);
+   this file only adds what the ten-service layout needs. Loaded by the Services page only. */
+
+.sv-copy h3{margin:.5rem 0 .8rem;font-size:clamp(2rem,3.4vw,3.1rem)}
+.sv-copy p{max-width:560px;color:#4f4942;font-size:1rem}
+.sv-copy p+p{margin-top:1em}
+.sv-copy .sv-actions{margin-top:24px}
+.sv-row{scroll-margin-top:100px}
