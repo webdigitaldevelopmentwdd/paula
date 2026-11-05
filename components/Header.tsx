@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from './LanguageProvider';
-import { CONCEPTS, conceptHref } from '@/lib/site';
+import { DROPDOWN_CONCEPTS, conceptHref } from '@/lib/site';
 
 export default function Header() {
   const { lang, setLang, t } = useLanguage();
@@ -97,7 +97,7 @@ export default function Header() {
               </svg>
             </button>
             <ul className="nav-dd-menu" id="wpMenu">
-              {CONCEPTS.map((c) => (
+              {DROPDOWN_CONCEPTS.map((c) => (
                 <li key={c.slug}>
                   <Link href={conceptHref(c.slug)} onClick={closeAll} aria-current={aria(conceptHref(c.slug))}>
                     {c.title}

@@ -13,6 +13,8 @@ type Props = {
   crumbs: Crumb[];
   /** Optional translated label for the "Home" crumb. */
   homeLabel?: ReactNode;
+  /** Optional extra class for a page-specific tweak (not set by any existing page). */
+  className?: string;
 };
 
 /**
@@ -20,12 +22,12 @@ type Props = {
  * 300px tall on desktop, 260px on tablet, 220px on mobile.
  * Not used on the homepage.
  */
-export default function HeroBanner({ title, subtitle, image, crumbs, homeLabel }: Props) {
+export default function HeroBanner({ title, subtitle, image, crumbs, homeLabel, className = '' }: Props) {
   // The background is a CSS image, so ask the browser to fetch it early.
   ReactDOM.preload(image, { as: 'image', fetchPriority: 'high' });
 
   return (
-    <section className="hb" aria-labelledby="hb-title">
+    <section className={`hb ${className}`.trim()} aria-labelledby="hb-title">
       <div className="hb-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden="true" />
       <div className="hb-overlay" aria-hidden="true" />
       <Breadcrumbs items={crumbs} className="hb-crumbs" homeLabel={homeLabel} />

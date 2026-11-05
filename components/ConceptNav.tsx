@@ -2,22 +2,26 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { CONCEPTS, conceptHref } from '@/lib/site';
+import { CONCEPTS, conceptHref, type NavConcept } from '@/lib/site';
 
 const SHORT: Record<string, string> = {
   'between-history-and-eternity': 'Medieval',
   'mediterranean-in-a-different-light': 'Mediterranean',
   'thematic-weddings': 'Thematic',
+  'cinematic-weddings': 'Cinematic',
 };
 const ROMAN = ['I', 'II', 'III', 'IV', 'V'];
 
-/** Slim switcher between the wedding concepts; sticks under the header on concept pages. */
-export default function ConceptNav() {
+/**
+ * Slim switcher between the wedding concepts; sticks under the header on concept pages.
+ * Pages may pass their own list; by default it shows the original concepts.
+ */
+export default function ConceptNav({ concepts = CONCEPTS }: { concepts?: NavConcept[] }) {
   const pathname = usePathname();
   return (
     <nav className="wp-concepts" aria-label="Wedding concepts">
       <div className="wrap wp-concepts-inner">
-        {CONCEPTS.map((c, i) => {
+        {concepts.map((c, i) => {
           const href = conceptHref(c.slug);
           return (
             <Link key={c.slug} href={href} aria-current={pathname === href ? 'page' : undefined}>

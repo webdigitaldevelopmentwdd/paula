@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/wedding-plans',
     ...CONCEPTS.map((c) => conceptHref(c.slug)),
+    conceptHref('cinematic-weddings'),
     '/services',
     ...SERVICES.map((s) => serviceHref(s.slug)),
     '/gallery',

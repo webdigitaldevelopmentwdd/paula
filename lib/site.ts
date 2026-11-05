@@ -64,6 +64,15 @@ export const CONCEPTS: Concept[] = [
 
 export const conceptHref = (slug: string) => `/wedding-plans/${slug}`;
 
+/** Minimal shape needed by navigation menus. */
+export type NavConcept = Pick<Concept, 'slug' | 'title'>;
+
+/**
+ * Every wedding story shown in the Wedding Plans dropdown (and on the Cinematic Weddings page's concept bar).
+ * CONCEPTS (above) is left untouched so the existing pages keep listing exactly what they list today.
+ */
+export const DROPDOWN_CONCEPTS: NavConcept[] = [...CONCEPTS, { slug: 'cinematic-weddings', title: 'Cinematic Weddings' }];
+
 /* ── Thematic weddings (the seven themes already on the home page) ───── */
 export type Theme = { number: string; title: string; text: string; image: string; alt: string; type: string; local?: { width: number; height: number } };
 
