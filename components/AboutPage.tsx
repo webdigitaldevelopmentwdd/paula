@@ -17,7 +17,7 @@ export default function AboutPage() {
           <Reveal className="abt-intro-inner">
             <div className="eyebrow" id="abt-intro-title">Meet the founder</div>
             <p className="abt-lead">
-              I’m Paula, a wedding planner based in Alicante and the founder of Eclesare by Paula, a project born from my
+              I’m Paula, a wedding planner based in Barcelona, Spain, and the founder of Eclesare by Paula, a project born from my
               passion for art, design, and the excitement of transforming love stories into extraordinary celebrations.
             </p>
             <p className="abt-sign">Paula, founder of Eclesare by Paula</p>
