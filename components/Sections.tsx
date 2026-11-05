@@ -18,12 +18,12 @@ export function Intro() {
           />
         </Reveal>
         <Reveal className="intro-copy">
-          <div className="eyebrow">{t('philosophyLabel', 'Nuestra filosofía')}</div>
-          <h2>{t('philosophyTitle', 'More than events. Meaningful experiences.')}</h2>
+          <div className="eyebrow">{t('philosophyLabel', 'About us')}</div>
+          <h2>{t('philosophyTitle', 'About Eclesare Wedding')}</h2>
           <p>
             {t(
               'philosophyText',
-              'En Eclesare by Paula creemos que cada celebración es una obra de arte viva. Diseñamos espacios que emocionan, conectan y permanecen en la memoria. Nuestra mirada une arquitectura, materiales, luz y emoción para crear celebraciones con una identidad propia.',
+              'Eclesare Wedding, by Paula, is a wedding design studio devoted to celebrations that feel personal, cultural and timeless. Every wedding is shaped around the couple, bringing together architecture, materials, light and emotion to create spaces that move people and stay in memory.',
             )}
           </p>
           <p className="side-note">{t('philosophyNote', 'Architecture of emotion — celebrations shaped with intention.')}</p>
